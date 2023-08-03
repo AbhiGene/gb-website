@@ -1,48 +1,130 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>GB</title>
+    <meta charset="utf-8" />
+    <!--<meta name=description content="This site was generated with Anima. www.animaapp.com"/>-->
+    <!-- <link rel="shortcut icon" type=image/png href="https://animaproject.s3.amazonaws.com/home/favicon.png" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
     <style>
+      body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+      }
+      .scaling-container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .content {
+        transform-origin: top left;
+        width: 1512px; /* Original content width */
+        height: 904px; /* Original content height */
+      }
+      .container-center-horizontal {
+        max-width: 100%; /* Limit width to viewport */
+        max-height: 100%; /* Limit height to viewport */
+        overflow: auto; /* Enable scrolling if content is too large */
+      }
+
+      .concept-three {
+        width: 100%; /* Override fixed width */
+      }
       body {
-        background-image: url("gb.jpeg");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        height: 100vh;
-      }
-      .message-container {
-        position: absolute;
-        top: 0;
-        right: 0;
-        padding: 50px;
-        text-align: right;
-      }
-      .slogan {
-        font-family: "Playfair Display", serif;
-        font-size: 2.5em;
-        color: #ffa07a;
-        margin: 0 0 20px;
-      }
-      .message {
-        font-family: "Playfair Display", serif;
-        font-size: 1.25em;
-        color: #ffa07a;
-        margin: 0 0 20px;
-      }
-      .email {
-        font-family: "Playfair Display", serif;
-        font-size: 1em;
-        color: #ffa07a;
-        margin: 0 0 20px;
+        overflow-x: hidden; /* Prevent horizontal scrolling */
       }
     </style>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/concept-three.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
   </head>
-  <body>
-    <div class="message-container">
-      <p class="slogan" style="color: #FFDAB9;">Molecules under construction</p>
-      <p class="message" style="color: #FFDAB9;">...and so is our website</p>
-      <p class="email" style="color: #FFDAB9;">info@generalbiological.com</p>
+  <body style="margin: 0; background: #ffffff">
+    <input type="hidden" id="anPageName" name="page" value="concept-three" />
+    <div class="scaling-container">
+      <div class="content">
+      <div class="container-center-horizontal">
+        <div class="concept-three screen">
+          <div class="frame-2">
+            <div class="overlap-group4">
+              <div class="frame-427320093">
+                <h1 class="title">GENERAL BIOLOGICAL</h1>
+                <p class="gb-is-an-american-te inriasans-bold-white-18px">
+                  <span class="inriasans-bold-white-18px"
+                    >GB is an American technology and manufacturing company.<br /></span
+                  ><span class="inriasans-normal-white-18px">We</span><span class="inriasans-bold-white-18px">&nbsp;</span
+                  ><span class="inriasans-normal-white-18px"
+                    >are a&nbsp;&nbsp;team of engineers developing&nbsp;&nbsp;processes to make safer, cleaner, and
+                    cheaper chemicals from </span
+                  ><span class="span4 inriasans-normal-white-18px">sugar, not oil.</span>
+                </p>
+                <div class="frame-3"><div class="contact-us">Contact Us</div></div>
+              </div>
+              <div class="frame-427320094">
+                <p class="rethinking-and-re-sh">
+                  Rethinking and re-shoring chemicals production to secure our industry, our country, <br />and our
+                  planet.
+                </p>
+              </div>
+              <img class="group-1" src="img/group-1.png" alt="Group 1" />
+            </div>
+            <div class="frame-427320096">
+              <div class="frame-427320100">
+                <img class="rectangle-2" src="img/rectangle-2@2x.png" alt="Rectangle 2" />
+                <div class="proudly-serving">PROUDLY SERVING</div>
+              </div>
+              <div class="frame-427320099">
+                <div class="frame-42732009">
+                  <div class="overlap-group">
+                    <div class="mining inriasans-normal-white-18px">MINING</div>
+                    <div class="number-1 inriasans-normal-blue-chill-30px">01</div>
+                  </div>
+                </div>
+                <div class="frame-42732009">
+                  <div class="overlap-group1">
+                    <div class="electronics inriasans-normal-white-18px">ELECTRONICS</div>
+                    <div class="number inriasans-normal-blue-chill-30px">02</div>
+                  </div>
+                </div>
+                <div class="frame-42732009">
+                  <div class="overlap-group2">
+                    <div class="industrial-water inriasans-normal-white-18px">INDUSTRIAL WATER</div>
+                    <div class="number inriasans-normal-blue-chill-30px">03</div>
+                  </div>
+                </div>
+                <div class="frame-42732009">
+                  <div class="overlap-group3">
+                    <div class="building-materials inriasans-normal-white-18px">BUILDING MATERIALS</div>
+                    <div class="number inriasans-normal-blue-chill-30px">04</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
+  <script>
+    function scaleContent() {
+      var contentDiv = document.getElementById('contentDiv');
+      var scale = Math.min(
+        window.innerWidth / contentDiv.offsetWidth,
+        window.innerHeight / contentDiv.offsetHeight
+      );
+      contentDiv.style.transform = 'scale(' + scale + ')';
+    }
+
+    // Scale the content when the page is loaded
+    window.addEventListener('load', scaleContent);
+
+    // Update the scaling when the window is resized
+    window.addEventListener('resize', scaleContent);
+    </script>
   </body>
 </html>

@@ -1,0 +1,290 @@
+/* screen - concept-three */
+
+.concept-three {
+  align-items: flex-start;
+  background-color: transparent;
+  border: 1px none;
+  display: flex;
+  height: 904px;
+  /* padding: 7px 11px; */
+  width: 1512px;
+}
+
+.concept-three .frame-2 {
+  align-items: center;
+  background-image: url(../img/image-2.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  height: 888px;
+  margin-top: 2px;
+  overflow: hidden;
+  width: 1489px;
+}
+
+.concept-three .overlap-group4 {
+  height: 520px;
+  position: relative;
+  width: 1489px;
+}
+
+.concept-three .frame-427320093 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 24px;
+  left: 64px;
+  padding: 40px 0px;
+  position: absolute;
+  top: 47px;
+}
+
+.concept-three .title {
+  color: var(--blue-chill);
+  font-family: var(--font-family-inria_sans);
+  font-size: var(--font-size-xxxl);
+  font-weight: 700;
+  height: 176px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: 516px;
+}
+
+.concept-three .gb-is-an-american-te {
+  height: 72px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: 594px;
+}
+
+.concept-three .span4 {
+  text-decoration: underline;
+}
+
+.concept-three .frame-3 {
+  align-items: center;
+  background-color: var(--blue-chill);
+  border-radius: 55px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 20px 59px;
+  position: relative;
+}
+
+.concept-three .contact-us {
+  color: var(--black);
+  font-family: var(--font-family-inria_sans);
+  font-size: var(--font-size-m);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.concept-three .frame-427320094 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 83px;
+  left: 819px;
+  padding: 40px 44px;
+  position: absolute;
+  top: 167px;
+}
+
+.concept-three .rethinking-and-re-sh {
+  -webkit-text-stroke: 1px var(--black);
+  color: var(--white);
+  font-family: var(--font-family-inria_sans);
+  font-size: var(--font-size-l);
+  font-weight: 400;
+  height: 86px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: -1.00px;
+  margin-top: -2.00px;
+  position: relative;
+  width: 517px;
+}
+
+.concept-three .group-1 {
+  height: 520px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1489px;
+}
+
+.concept-three .frame-427320096 {
+  align-items: flex-start;
+  border-radius: 30px;
+  display: inline-flex;
+  margin-left: 41.0px;
+  overflow: hidden;
+  padding: 20px 8px;
+  position: relative;
+}
+
+.concept-three .frame-427320100 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 28px;
+  position: relative;
+}
+
+.concept-three .rectangle-2 {
+  height: 46px;
+  object-fit: cover;
+  position: relative;
+  width: 46px;
+}
+
+.concept-three .proudly-serving {
+  color: var(--white);
+  font-family: var(--font-family-inria_sans);
+  font-size: var(--font-size-xxl);
+  font-weight: 700;
+  height: 80px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: 195px;
+}
+
+.concept-three .surname {
+  height: 42px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: 135px;
+}
+
+.concept-three .frame-427320099 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 25px;
+  position: relative;
+}
+
+.concept-three .frame-42732009 {
+  background-color: var(--white);
+  border-radius: 30px;
+  height: 251.78px;
+  overflow: hidden;
+  position: relative;
+  width: 279px;
+}
+
+.concept-three .overlap-group {
+  align-items: flex-start;
+  background-image: url(../img/image-37@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  gap: 132px;
+  height: 252px;
+  justify-content: flex-end;
+  min-width: 279px;
+  padding: 16px 10px;
+}
+
+.concept-three .mining {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 22px;
+  min-width: 62px;
+}
+
+.concept-three .number-1 {
+  align-self: flex-end;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 8.78px;
+  min-height: 30px;
+  white-space: nowrap;
+  width: 56px;
+}
+
+.concept-three .overlap-group1 {
+  align-items: flex-start;
+  background-image: url(../img/image-37-1@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  gap: 87px;
+  height: 252px;
+  justify-content: flex-end;
+  min-width: 279px;
+  padding: 16px 11px;
+}
+
+.concept-three .electronics {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 22px;
+  min-width: 106px;
+}
+
+.concept-three .number {
+  align-self: flex-end;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 4.78px;
+  min-height: 30px;
+  white-space: nowrap;
+  width: 56px;
+}
+
+.concept-three .overlap-group2 {
+  align-items: flex-start;
+  background-image: url(../img/image-37-2@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  gap: 41px;
+  height: 252px;
+  justify-content: flex-end;
+  min-width: 279px;
+  padding: 16px 10px;
+}
+
+.concept-three .industrial-water {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 22px;
+  min-width: 153px;
+}
+
+.concept-three .overlap-group3 {
+  align-items: flex-start;
+  background-image: url(../img/image-37-3@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  gap: 31px;
+  height: 252px;
+  justify-content: flex-end;
+  min-width: 279px;
+  padding: 16px 4px;
+}
+
+.concept-three .building-materials {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 22px;
+  min-width: 169px;
+}

@@ -1,0 +1,36 @@
+:root { 
+  --black: #000000;
+  --blue-chill: #0a9396;
+  --white: #ffffff;
+ 
+  --font-size-l: 24px;
+  --font-size-m: 18px;
+  --font-size-xl: 30px;
+  --font-size-xxl: 32px;
+  --font-size-xxxl: 75px;
+ 
+  --font-family-inria_sans: "Inria Sans", Helvetica;
+}
+.inriasans-normal-white-18px {
+  color: var(--white);
+  font-family: var(--font-family-inria_sans);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inriasans-normal-blue-chill-30px {
+  color: var(--blue-chill);
+  font-family: var(--font-family-inria_sans);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inriasans-bold-white-18px {
+  color: var(--white);
+  font-family: var(--font-family-inria_sans);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
