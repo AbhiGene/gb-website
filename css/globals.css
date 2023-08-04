@@ -6,7 +6,7 @@
 
 
 .screen a {
-  display: inline-block;
+  display: contents;
   text-decoration: none;
 }
 
