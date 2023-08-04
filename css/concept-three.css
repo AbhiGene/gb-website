@@ -2,11 +2,11 @@
 
 .concept-three {
   align-items: flex-start;
-  background-color: transparent;
+  background-color: var(--white);
   border: 1px none;
   display: flex;
   height: 904px;
-  /* padding: 7px 11px; */
+  padding: 7px 11px;
   width: 1512px;
 }
 
